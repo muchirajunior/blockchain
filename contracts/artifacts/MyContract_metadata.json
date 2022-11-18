@@ -20,12 +20,95 @@
 			},
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myName",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStruct",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +143,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0xfe02019583537be152fc024faceb78400a51a0a6bb8f12767302665a4dff5a5f",
+			"keccak256": "0x35792069657a3cd326e4867d788d031e57e9c2ca6d29f29419a1f219b7f7c717",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d9b0d6ce58133cfdd7ac464ebcfc2c95f7d5b09b209d42a0cdfec75dfcaf0eb5",
-				"dweb:/ipfs/QmVNpzvpsU4MqRj17bfgTJWaNoBp3P9BjhaAX9ZHPfR3b4"
+				"bzz-raw://8f62faad47ee72e199ce00899f2d288fb902cb9716031494e03f4280fd63630b",
+				"dweb:/ipfs/QmXArjkCGMN7mPt54k9gdQdkbXGkAekfStQVJKCuPAezp2"
 			]
 		}
 	},
